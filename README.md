@@ -1,6 +1,6 @@
 # Desafio de Programação: Javascript
 
-Este é o repositório do curso [Desafio de Programação: Javascript]. Você pode acessar o conteúdo completo no LinkedIn Learning.
+Este é o repositório do curso 'Desafio de Programação: Javascript'. Você pode acessar o conteúdo completo no LinkedIn Learning.
 
 ![Título completo do curso][lil-thumbnail-url]  
 
