@@ -6,7 +6,7 @@ Este é o repositório do curso [Desafio de Programação: Javascript]. Você po
 
 Confira o arquivo Readme na ramificação principal para obter instruções e informações atualizadas.
 
-## DESCRIÇÃO DO CURSO
+## Descrição do curso
 
 Instruções
 Este repositório contém ramificações, ou branches, para cada um dos vídeos do curso. Caso você deseje alternar para uma ramificação específica e continuar o curso a partir daí, use o menu pop-up da ramificação no GitHub ou adicione /tree/nome_da_ramificação ao URL para acessar diretamente a ramificação desejada.
