@@ -19,11 +19,13 @@ Clone este repositório em seu computador local (macOS) ou CMD (Windows), ou use
 
 
 ## Instrutora
+
 Amanda Cavallaro
 
-Confira meus outros cursos no LinkedIn Learning.
+Confira meus outros cursos no [LinkedIn Learning].
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs) 
 [lil-course-url]: https://www.linkedin.com 
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4D0DAQFQ-BxUnZ4Uzg/learning-public-crop_675_1200/B4DZbJgHw2GUAk-/0/1747137363657?e=2147483647&v=beta&t=FQN879Ddyuh_hHdYK3ovBzaWnsmtJiZq3IoRoXDDkPc
+[Linkedin Learning]: https://www.linkedin.com/learning/instructors/amanda-cavallaro
