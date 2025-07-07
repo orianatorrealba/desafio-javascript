@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+</head>
+<body>
+    <h1>Cardápio</h1>
+    <ul id="cardapio"></ul>
+
+    <script>
+        const cardapio = [
+            { nome: "Frango à parmegiana", vegetariano: false },
+            { nome: "Feijoada tradicional", vegetariano: false },
+            { nome: "Lasanha de carne", vegetariano: false },
+            { nome: "Estrogonofe de frango", vegetariano: false },
+            { nome: "Hambúrguer vegano de grão-de-bico", vegetariano: true },
+            { nome: "Escondidinho de lentilha", vegetariano: true },
+            { nome: "Salada de quinoa com legumes", vegetariano: true }
+        ];
+
+        const lista = document.getElementById("cardapio");
+
+        cardapio.forEach(prato => {
+            const item = document.createElement("li");
+            item.textContent = `${prato.nome} ${prato.vegetariano ? "(Vegano)" : "(Não vegano)"}`;
+            lista.appendChild(item);
+        });
+    function montarCardapioVegetariano(cardapio){
+        const listaCardapio = document.querySelector("#cardapio");
+        const opcoesVegetarianas = cardapio.filter(prato => prato.vegetariano === true);
+        opcoesVegetarianas.forEach(prato =>{
+            let item = documentcreateElememt("li");
+            item.textContent = prato.nome;
+            listaCardapio.appendChild("item");
+        })
+    }
+
+    montarCardapioVegetariano(cardapio);
+    </script>
+  
+</body>
+</html>
+
+
