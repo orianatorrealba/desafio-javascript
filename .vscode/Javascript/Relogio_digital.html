@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relógio em Tempo Real</title>
+  </head>
+
+  <body>
+    <!-- Para executar este arquivo, clique com o botão direito sobre ele na barra de navegação e selecione "Open with live server". Depois, abra as ferramentas do desenvolvedor no navegador e vá até o console. -->
+
+    <!-- Use este elemento para exibir o relógio -->
+    <div id="relogio"></div>
+
+    <script>
+    //Escreva seu código aqui
+    function inciarRelogio(){
+      const elementoRelogio = document.querySelector("#relogio");
+      return setInterval(() => {
+        let dataAtual = new Date();
+        let horaAtual = dataAtual.toLocaleTimeString();
+        elementoRelogio.textContent = horaAtual
+
+      }, 1000);
+    }
+    inciarRelogio();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cores Dinâmicas</title>
+</head>
+
+<body>
+  <!-- Para executar este arquivo, clique com o botão direito sobre ele na barra de navegação e selecione "Open with live server". Depois, abra as ferramentas do desenvolvedor no navegador e vá até o console. -->
+
+  <!-- Use esses botões para alterar a cor de fundo -->
+  <button id="azul">Azul</button>
+  <button id="rosa">Rosa</button>
+  <button id="verde">Verde</button>
+
+  <script>
+
+     function mudarCor(cor) {
+        return function () {
+          document.body.style.background = cor;
+        }
+      }
+      const corDeFundoAzul = mudarCor("#0f62f3");
+      const corDeFundoRosa = mudarCor("#ff7eb6");
+      const corDeFundoVerde = mudarCor("#42be65");
+
+      document.querySelector("#azul").addEventListener("click", corDeFundoAzul );
+      document.querySelector('#rosa').addEventListener('click', corDeFundoRosa);
+      document.querySelector('#verde').addEventListener('click',corDeFundoVerde);
+
+    //
+  </script>
+</body>
+
+</html>
